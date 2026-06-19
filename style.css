@@ -283,6 +283,19 @@ a { color: inherit; text-decoration: none; }
 .bg-ink h2, .bg-ink h3, .bg-ink h4 { color: var(--white); }
 .bg-deep { background: var(--parchment-deep); }
 
+.frame {
+  width: 280px;          /* control container size */
+  height: 350px;         /* fixed height for consistency */
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* prevents stretching */
+}
 /* --------------------------------------------------------------------
    BOOK CARD
    -------------------------------------------------------------------- */
