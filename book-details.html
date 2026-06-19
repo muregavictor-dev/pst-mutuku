@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Details — Pastor Mutuku</title>
+<meta name="description" content="Read the full description and spiritual message behind this title by Pastor Mutuku.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-mutuku fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><span class="brand-mark"><span>PM</span></span>Pastor Mutuku</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="books.html">Books</a></li>
+        <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+        <li class="nav-item"><a class="nav-link" href="quotes.html">Quotes</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-3 mt-2 mt-lg-0"><a class="btn-gold" href="checkout.html">Checkout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header pb-4">
+  <div class="container">
+    <div class="breadcrumb-gold"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="books.html">Books</a> &nbsp;/&nbsp; <span id="bc-title">Book Details</span></div>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="book-cover" style="max-width: 340px; box-shadow: var(--shadow-lift);" id="detail-cover">
+          <div class="cover-inner">
+            <span class="cover-cat" id="detail-cat">Category</span>
+            <span class="cover-title" id="detail-cover-title">Title</span>
+            <span class="cover-rule"></span>
+            <span class="cover-author">Pastor Mutuku</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <span class="eyebrow" id="detail-cat-2">Category</span>
+        <h1 class="display-font mt-2" style="font-size: clamp(1.9rem, 3.6vw, 2.8rem);" id="detail-title">Book Title</h1>
+        <p class="text-soft" id="detail-tagline" style="font-size: 1.1rem;">Tagline goes here.</p>
+
+        <div class="d-flex align-items-center gap-4 my-4">
+          <span class="price" style="font-size: 1.6rem;" id="detail-price">KES 0</span>
+          <button class="btn-gold" id="detail-buy-btn" data-buy-now>Buy Now</button>
+        </div>
+
+        <hr class="thin">
+
+        <h3 class="mt-4 mb-3" style="font-size: 1.3rem;">Full Description</h3>
+        <div id="detail-description" class="text-soft" style="line-height: 1.85;"></div>
+
+        <div class="illuminated-rule left mt-5 mb-4" style="max-width: 100%;">
+          <span class="mark"></span><span class="eyebrow">The Spiritual Message</span>
+        </div>
+        <blockquote class="display-font" style="font-size: 1.3rem; color: var(--ink); border-left: 2px solid var(--gold); padding-left: 1.3rem; line-height: 1.5;" id="detail-message">
+          Message goes here.
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-deep">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-md-3 text-center text-md-start">
+        <div class="hero-portrait" style="max-width: 160px;">
+          <div class="frame"><span class="monogram" style="font-size: 3rem;">PM</span></div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <span class="eyebrow">About The Author</span>
+        <h3 class="mt-2 mb-2">Pastor Mutuku</h3>
+        <p class="text-soft mb-3" style="max-width: 640px; line-height: 1.8;">Pastor Mutuku has spent over fourteen years preaching and writing for believers who want more than a comfortable faith. His books read the way he preaches — direct, unhurried, and unwilling to let the reader off the hook.</p>
+        <a href="about.html" class="btn-outline-ink">Full Biography</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Continue Reading</span>
+      <h2>Related Titles</h2>
+    </div>
+    <div class="row g-4" id="related-books"></div>
+  </div>
+</section>
+
+<footer class="footer-mutuku">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <div class="f-brand mb-3">Pastor Mutuku</div>
+        <p style="max-width: 320px;">Books, teachings, and reflections for the journey from religion to obedience.</p>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h5>Explore</h5>
+        <ul class="list-unstyled d-flex flex-column gap-2">
+          <li><a href="books.html">Books</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="quotes.html">Quotes</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h5>About</h5>
+        <ul class="list-unstyled d-flex flex-column gap-2">
+          <li><a href="about.html">Pastor Mutuku</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h5>Weekly Reflection</h5>
+        <p>One short reflection in your inbox, every Sunday.</p>
+        <form data-newsletter-form class="d-flex gap-2 mt-3">
+          <input type="email" required placeholder="Your email" class="form-control" style="background: rgba(246,239,226,0.08); border: 1px solid rgba(246,239,226,0.2); color: #fff;">
+          <button type="submit" class="btn-gold" style="white-space: nowrap;">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Pastor Mutuku. All rights reserved.</span>
+      <span>Nairobi, Kenya</span>
+    </div>
+  </div>
+</footer>
+
+<div class="scroll-top-btn" aria-label="Scroll to top">&uarr;</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+  const BOOKS = {
+    'weight-of-obedience': {
+      title: "The Weight of Obedience",
+      category: "Faith",
+      price: "1,200",
+      tagline: "Why obeying God often costs more than believing in Him ever did.",
+      description: [
+        "Most believers never struggle to believe that God exists. They struggle to do what He says once they're sure of it. The Weight of Obedience is written for that exact gap — the space between conviction and action where most faith quietly dies.",
+        "Across twelve chapters, Pastor Mutuku walks through the biblical figures who obeyed without full understanding — Abraham, Moses, Mary — and asks the uncomfortable question every reader eventually faces: what is it costing you to keep saying yes to the parts of obedience that are easy, and no to the parts that aren't?",
+        "This is not a book about willpower. It is a book about the kind of trust that moves before it understands."
+      ],
+      message: "Obedience is not the absence of fear — it is movement in spite of it."
+    },
+    'becoming': {
+      title: "Becoming: A Journey Into Purpose",
+      category: "Purpose",
+      price: "1,500",
+      tagline: "For the reader caught between who they were raised to be and who they're called into.",
+      description: [
+        "Becoming is written for the believer standing at the uncomfortable intersection of expectation and calling — the place where the life you were handed and the life you're being summoned toward no longer fit together.",
+        "Pastor Mutuku draws on years of pastoral counsel to map the real, often slow process of discovering purpose: not as a single dramatic revelation, but as a series of small obediences that compound into clarity.",
+        "Readers leave this book with less certainty about their five-year plan, and far more confidence in the God who is shaping them anyway."
+      ],
+      message: "Purpose is not discovered in comfort. It is uncovered in obedience."
+    },
+    'shepherds-heart': {
+      title: "The Shepherd's Heart",
+      category: "Leadership",
+      price: "1,600",
+      tagline: "What it costs to lead people well.",
+      description: [
+        "Written for pastors, parents, mentors, and anyone who has been handed responsibility for other people's souls, The Shepherd's Heart argues that leadership in the Kingdom is measured by intimacy with God before it is measured by influence over people.",
+        "Pastor Mutuku draws a sharp line between leading from performance and leading from the altar — and shows, through stories from his own ministry, what it looks like when those two paths diverge.",
+        "This is a quiet, demanding book for leaders who would rather be faithful than impressive."
+      ],
+      message: "Leadership that has never knelt has nothing to stand on."
+    },
+    'quiet-fire': {
+      title: "Quiet Fire: Cultivating a Deeper Walk",
+      category: "Spiritual Growth",
+      price: "1,100",
+      tagline: "A devotion that doesn't need a stage to stay alive.",
+      description: [
+        "Quiet Fire is a manual for the unseen disciplines — prayer, fasting, scripture, silence — that build a faith strong enough to survive outside the spotlight of public worship.",
+        "Pastor Mutuku writes candidly about the seasons in his own walk where the public ministry was thriving while the private devotion had quietly gone cold, and what it took to rebuild it from the inside out.",
+        "Each chapter ends with a simple practice the reader can begin that same day — not as a formula, but as kindling."
+      ],
+      message: "Grace did not come to leave you comfortable. It came to make you whole."
+    },
+    'set-apart': {
+      title: "Set Apart: Living Above the Noise",
+      category: "Faith",
+      price: "1,300",
+      tagline: "A faith that no longer needs the approval of the room.",
+      description: [
+        "Set Apart is a direct, unsentimental call to believers exhausted by the pressure to perform their faith for an audience — online, in church, and at home.",
+        "Pastor Mutuku examines what it means to be holy in a culture built on visibility, and makes the case that the most radical thing a believer can do today is live a faith no one is watching.",
+        "Sharp, short, and unwilling to soften its conclusions, this is one of his most quoted works."
+      ],
+      message: "You were not called to be understood. You were called to be obedient."
+    },
+    'leading-from-altar': {
+      title: "Leading From the Altar",
+      category: "Leadership",
+      price: "1,800",
+      tagline: "A framework for leaders whose authority comes from intimacy, not performance.",
+      description: [
+        "Leading From the Altar is Pastor Mutuku's most structured work — part teaching, part field guide — for leaders who want to build something that outlasts their own charisma.",
+        "It traces the practical disciplines behind sustainable spiritual leadership: accountability, rest, correction, and the willingness to be unseen. Each section closes with reflection questions designed for leadership teams, not just individual readers.",
+        "Used in several Kenyan church leadership programs since its release, it remains Pastor Mutuku's primary resource for raising up the next generation of shepherds."
+      ],
+      message: "The altar will cost you something the crowd never sees."
+    }
+  };
+
+  function buildCover(slug, b) {
+    return '<div class="book-cover"><div class="cover-inner"><span class="cover-cat">' + b.category + '</span><span class="cover-title">' + b.title.split(':')[0] + '</span><span class="cover-rule"></span><span class="cover-author">Pastor Mutuku</span></div></div>';
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('book') && BOOKS[params.get('book')] ? params.get('book') : 'quiet-fire';
+  const book = BOOKS[slug];
+
+  document.getElementById('bc-title').textContent = book.title;
+  document.title = book.title + ' — Pastor Mutuku';
+  document.getElementById('detail-cat').textContent = book.category;
+  document.getElementById('detail-cover-title').textContent = book.title.split(':')[0];
+  document.getElementById('detail-cat-2').textContent = book.category;
+  document.getElementById('detail-title').textContent = book.title;
+  document.getElementById('detail-tagline').textContent = book.tagline;
+  document.getElementById('detail-price').textContent = 'KES ' + book.price;
+  document.getElementById('detail-description').innerHTML = book.description.map(p => '<p>' + p + '</p>').join('');
+  document.getElementById('detail-message').textContent = book.message;
+
+  const buyBtn = document.getElementById('detail-buy-btn');
+  buyBtn.setAttribute('data-book-title', book.title);
+  buyBtn.setAttribute('data-book-price', book.price);
+
+  const relatedWrap = document.getElementById('related-books');
+  Object.keys(BOOKS).filter(k => k !== slug).slice(0, 3).forEach(key => {
+    const rb = BOOKS[key];
+    const col = document.createElement('div');
+    col.className = 'col-md-4';
+    col.innerHTML = '<div class="book-card">' +
+      '<a href="book-details.html?book=' + key + '" class="book-cover"><div class="cover-inner"><span class="cover-cat">' + rb.category + '</span><span class="cover-title">' + rb.title.split(':')[0] + '</span><span class="cover-rule"></span><span class="cover-author">Pastor Mutuku</span></div></a>' +
+      '<div class="book-body"><span class="book-cat-tag">' + rb.category + '</span><h3><a href="book-details.html?book=' + key + '">' + rb.title + '</a></h3><p class="desc">' + rb.tagline + '</p>' +
+      '<div class="book-foot"><span class="price">KES ' + rb.price + '</span><button class="btn-gold" data-buy-now data-book-title="' + rb.title.replace(/"/g, '&quot;') + '" data-book-price="' + rb.price + '">Buy Now</button></div></div></div>';
+    relatedWrap.appendChild(col);
+  });
+
+  // re-bind buy-now buttons added dynamically after main.js already ran
+  document.querySelectorAll('[data-buy-now]').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const title = btn.getAttribute('data-book-title');
+      const price = btn.getAttribute('data-book-price');
+      try { sessionStorage.setItem('mutuku_selected_book', JSON.stringify({ title, price })); } catch (err) {}
+      window.location.href = 'checkout.html?book=' + encodeURIComponent(title) + '&price=' + encodeURIComponent(price);
+    });
+  });
+</script>
+</body>
+</html>
